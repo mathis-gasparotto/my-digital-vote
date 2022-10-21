@@ -1,0 +1,27 @@
+header .logo svg {
+    width: 8em;
+    height: 5.5em;
+}
+header {
+    padding: .3em 0 .8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+header .header-right a {
+    padding: .7em .9em;
+    border-radius: .8em 0 0 .8em;
+    background-color: $secondaryBlueColor;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+header .header-right a svg.after {
+    margin-left: 1em;
+    height: 1em;
+}
+header .header-right a svg.before {
+    margin-right: 1em;
+    height: 1em;
+}

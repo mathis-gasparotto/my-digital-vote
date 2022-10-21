@@ -1,0 +1,51 @@
+.btn {
+    padding: 0.375em 0.75em;
+    font-size: 1em;
+    border-radius: 0.25em;
+}
+.btn, .btn:hover, .btn:focus, .btn:active {
+    color: $whiteColor;
+}
+.btn-primary {
+    background-color: $primaryBlueColor !important;
+    color: $whiteColor !important;
+    border: none !important;
+}
+.btn-primary:focus, .btn-primary:active {
+    background-color: $secondaryBlueColor !important;
+    color: $whiteColor !important;
+    border: none !important;
+}
+.btn-secondary {
+    background-color: $secondaryBlueColor !important;
+    color: $whiteColor !important;
+    border: none !important;
+}
+.btn-secondary:focus, .btn-secondary:active {
+    background-color: $primaryBlueColor !important;
+    color: $whiteColor !important;
+    border: none !important;
+}
+.btn-warning {
+    background-color: $secondaryRedColor !important;
+    color: $whiteColor !important;
+    border: none !important;
+}
+.btn-warning:focus, .btn-warning:active {
+    background-color: $secondaryRedColor !important;
+    color: $whiteColor !important;
+    border: none !important;
+}
+.btn-infos {
+    background-color: $whiteColor !important;
+    color: $primaryBlueColor !important;
+    border: none !important;
+}
+.btn-infos:focus, .btn-infos:active {
+    background-color: $whiteColor !important;
+    color: $primaryBlueColor !important;
+    border: none !important;
+}
+.btn-danger {
+    background-color: $primaryRedColor !important;
+}

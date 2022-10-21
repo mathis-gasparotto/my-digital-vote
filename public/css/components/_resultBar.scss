@@ -1,0 +1,30 @@
+.vote-results {
+    position: relative;
+    color: $whiteColor;
+    margin-bottom: 5em;
+}
+.vote-results .choice-text {
+    font-size: .95em;
+    position: absolute;
+    bottom: -2.2em;
+}
+.vote-results .yes-text {
+    left: .5em;
+}
+.vote-results .no-text {
+    right: .5em;
+}
+.vote-results .result-bar {
+    top: 0;
+    height: .5em;
+    position: absolute;
+    border-radius: 500px;
+}
+.vote-results .yes-bar {
+    background-color: $whiteColor;
+    width: 100%;
+}
+.vote-results .no-bar {
+    right: 0;
+    background-color: $secondaryRedColor;
+}

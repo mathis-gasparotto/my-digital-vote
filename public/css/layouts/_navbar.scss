@@ -1,0 +1,34 @@
+.nav-bar {
+    position: fixed;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    background-color: $secondaryBlueColor;
+    padding: 1em 0 1.25em;
+    border-radius: 1.2em 1.2em 0 0;
+    border: 3px solid $whiteColor;
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar a {
+    color: $whiteColor;
+}
+.nav-bar a svg {
+    width: 2em;
+    height: 2em;
+}
+.nav-bar .username {
+    font-size: .8em;
+    position: absolute;
+    color: $whiteColor;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: .15em;
+}

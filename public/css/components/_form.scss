@@ -1,0 +1,65 @@
+.card-header {
+    padding: .5em 1em;
+    color: var(--bs-body-color);
+}
+.form .alert {
+    margin-bottom: .3em;
+}
+.form input {
+    font-weight: 300;
+}
+.form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 1.8em;
+    padding-bottom: 0.625em;
+}
+.form-floating>.form-control {
+    padding: 1em 0.75em;
+    height: 3em;
+}
+.form-floating>.form-control[type="datetime-local"] {
+    height: 3.5em;
+}
+.form-floating>label {
+    padding: 0.7em 0.5em;
+}
+.form .form-input .form-control {
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #707070;
+
+}
+.form .form-input:nth-of-type(1) .form-control {
+    border-top: none;
+}
+
+.btn-arrow {
+    border-radius: 500px;
+    padding: .8em 1em;
+}
+.btn-arrow svg {
+    margin-right: -10px;
+    width: 2em;
+    height: 2em;
+}
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+.form-login form {
+    width: 80%;
+    position: relative;
+    padding: 0 5em 0 1em;
+    box-shadow: 0 0 1em #707070;
+    border-radius: 0 50px 50px 0;
+}
+.form-login .btn-arrow {
+    position: absolute;
+    right: -2em;
+    top: 1.25em;
+}
+.form textarea {
+    height: 7em !important;
+}

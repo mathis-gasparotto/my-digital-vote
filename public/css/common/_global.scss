@@ -1,0 +1,98 @@
+body {
+    height: 100vh;
+    font-weight: 500;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $whiteColor;
+}
+main {
+    padding-bottom: 6em;
+    background-color: $whiteColor;
+    position: relative;
+}
+input, label, select, option, textarea {
+    font-weight: 300 !important;
+}
+body, input, select, textarea {
+    font-size: 45px !important;
+    font-family: $textFont;
+}
+.card-form {
+    width: 90%;
+    margin: auto;
+}
+footer {
+    margin-top: 50px;
+}
+.form-required::after {
+    content: "*";
+    color: red;
+    margin-left: 3px;
+}
+.status {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.actions {
+    margin: 2px 0px;
+}
+.inline-block {
+    display: inline-block;
+}
+.mb-70 {
+    margin-bottom: 70px !important;
+}
+.h-100 {
+    height: 100px !important;
+}
+.w-30 {
+    width: 30% !important;
+}
+.w-40 {
+    width: 40% !important;
+}
+.mt-100 {
+    margin-top: 100px !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.alert {
+    text-align: center;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+}
+.form-floating label {
+    opacity: .75;
+}
+
+.lastname {
+    text-transform: uppercase;
+}
+
+.big-logo {
+    position: absolute;
+    right: 5vw;
+    top: 15vh;
+}
+
+.btn.title {
+    font-size: 1.2em;
+}
+
+.title {
+    color: $whiteColor;
+    font-family: $titleFont;
+    font-size: 2em;
+    letter-spacing: -.05em;
+    font-weight: 700;
+}
+.text {
+    color: $whiteColor;
+    font-family: $textFont;
+    font-size: 1em;
+    font-weight: 500;
+}

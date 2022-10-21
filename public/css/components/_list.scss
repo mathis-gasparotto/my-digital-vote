@@ -1,0 +1,114 @@
+.btn-add {
+    margin-left: 1rem;
+}
+.btn-add svg {
+    width: .8em;
+    height: .8em;
+}
+.title-list-container {
+    width: 100%;
+    background-color: $primaryBlueColor;
+    padding: 1.2em 1.5em 3em;
+    border-radius: 1.2em 1.2em 0 0;
+    margin-bottom: -1.5em;
+}
+.title-list-container.list-null {
+    padding: 1.2em 1.5em 1.5em;
+    border-radius: 1.2em;
+    margin-bottom: 0;
+}
+
+.title-list::after {
+    content: "";
+    height: 7px;
+    border-radius: 5px;
+    width: 70%;
+    position: absolute;
+    bottom: -.15em;
+    left: 0;
+    background-color: $whiteColor;
+}
+.title-list {
+    position: relative;
+    display: inline-block;
+}
+.vote-arrow svg {
+    height: 2em;
+    width: 2em;
+}
+
+.list.list-striped .list-content .list-content-container {
+    display: flex;
+    align-items: center;
+    border-radius: .7em .7em 0 0;
+    padding: .8em .8em 2em;
+    margin-bottom: -1em;
+}
+.list.list-striped .list-content .list-content-container:nth-last-of-type(1) {
+    padding-bottom: 1.25em;
+    margin-bottom: 0;
+    border-radius: 1.2em;
+}
+.list.list-striped .list-content .list-content-container a {
+    color: $whiteColor;
+    text-decoration: none;
+}
+.list.list-striped .list-content .list-content-container {
+    color: $whiteColor;
+    text-decoration: none;
+}
+.list.list-striped .list-content .list-content-container:nth-of-type(1n) {
+    background-color: $secondaryBlueColor;
+}
+.list.list-striped .list-content .list-content-container:nth-of-type(2n) {
+    background-color: $primaryBlueColor;
+}
+.list.list-striped .list-content .list-content-container .list-content-right{
+    width: 15%;
+    text-align: center;
+}
+.list.list-striped .list-content .list-content-container .list-content-left{
+    width: 85%;
+    margin-right: 2em;
+}
+.list.list-striped .list-content .list-content-container .item-title {
+    text-align: center;
+    padding-bottom: .5em;
+}
+.list.list-striped .list-content .list-content-container .item-infos {
+    font-size: .8em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.list.list-striped .list-content .list-content-container .item-infos div:nth-of-type(1) {
+    padding-right: 1.7em;
+}
+
+
+.list-user.list-striped .list-content .list-content-container{
+    flex-direction: column;
+}
+.list-user.list-striped .list-content .list-content-container .list-content-left{
+    width: 100%;
+}
+.list-user.list-striped .list-content .list-content-container .list-content-right{
+    width: 100%;
+    display: flex;
+}
+.list-user.list-striped .list-content .list-content-container .item-title {
+    font-size: .8em;
+    margin-bottom: 0;
+}
+.list-user.list-striped .list-content .list-content-container .item-infos {
+    font-size: 1em;
+    justify-content: space-evenly;
+    margin-bottom: .5em;
+}
+.list-vote .vote-results {
+    margin-bottom: 2.5em;
+}
+.voted {
+    color: #00ff39;
+}

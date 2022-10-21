@@ -1,0 +1,34 @@
+@media screen and (min-width: 1000px) {
+  body,
+  header,
+  .nav-bar {
+    width: 75vw !important;
+  }
+  html>body {
+    margin: auto !important;
+  }
+  html>body,
+  form input,
+  form select,
+  form textarea {
+    font-size: 25px !important;
+  }
+  html {
+    background-color: #005fb8;
+  }
+  .nav-bar {
+    left: initial !important;
+  }
+  .big-logo {
+    top: 0vh !important;
+    width: 10em !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body,
+  header,
+  .nav-bar {
+    width: 60vw !important;
+  }
+}

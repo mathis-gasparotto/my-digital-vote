@@ -1,0 +1,64 @@
+.vote-show-container {
+    background-color: $primaryBlueColor;
+    padding: 2em 3em 7em;
+    margin-bottom: -5em;
+    border-radius: 1em 1em 0 0;
+    min-height: 80vh;
+}
+.vote-show-title {
+    letter-spacing: 0;
+    margin: 0 0 0 -0.5em;
+    padding: .15em 0 .25em .4em;
+    position: relative;
+    line-height: 1.2em;
+}
+.vote-show-title::before {
+    content: "";
+    position: absolute;
+    background-color: $whiteColor;
+    left: 0;
+    top: 0;
+    width: 8px;
+    height: 100%;
+    border-radius: 5px;
+}
+.vote-show-description {
+    margin: 1em 0 2em;
+}
+.vote-show-choice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.btn-choice .btn {
+    padding: .8em 2em;
+    border-radius: .8em;
+    font-weight: 700;
+    font-family: $textFont;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.btn-choice-yes .btn {
+    background-color: $whiteColor;
+    color: $primaryBlueColor;
+}
+.btn-choice-no .btn {
+    background-color: $primaryRedColor;
+    color: $whiteColor;
+}
+.vote-show-count {
+    margin-top: 2em;
+}
+.accepted {
+    color: #00ff39;
+}
+.declined {
+    color: $secondaryRedColor;
+}
+.done {
+    color: #ffee00;
+}
+.super_admin, .admin {
+    margin-top: 2em;
+}
