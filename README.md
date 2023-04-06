@@ -9,7 +9,7 @@
 
 ## About Project
 
-Projet d’école de l’année 2021-2022 : MyDigitalVote (plateforme au format mobile, pour mettre en place des référendums entre les élèves et l’administration). Sur cette plateforme, chaque délégué de classe peut proposer des référendums. Ces référendums sont votés, durant une période définie, par les étudiants.
+Projet d’école de l’année 2021-2022 chez MyDigitalSchool : MyDigitalVote (plateforme au format mobile, pour mettre en place des référendums entre les élèves et l’administration). Sur cette plateforme, chaque délégué de classe peut proposer des référendums. Ces référendums sont votés, durant une période définie, par les étudiants.
 
 Sur cette plateforme, il y a également un système d’autorisation, ainsi que toutes les fonctionnalités de base pour les référendums, tels que **voir/ajouter/modifier/supprimer** des référendums.
 
